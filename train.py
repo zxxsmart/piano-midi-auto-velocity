@@ -13,7 +13,7 @@ from utils import clip_gradient, adjust_lr, AvgMeter
 # from tqdm import tqdm
 # from torchstat import stat
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 def train(train_loader, model, optimizer, epoch, loss_func):
     model.train()
